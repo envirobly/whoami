@@ -1,0 +1,12 @@
+project: replace-me
+zone: eu-north-1a
+
+services:
+  whoami:
+    public: true
+    image: traefik/whoami:v1.11
+    health_check_path: /health
+    min_instances: 1
+    max_instances: 2
+    env:
+      WHOAMI_NAME: v1
