@@ -1,5 +1,4 @@
-project: https://envirobly.test/projects/47
-zone: eu-north-1a
+# zone: eu-north-1a
 
 services:
   whoami:
