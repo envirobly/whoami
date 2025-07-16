@@ -8,4 +8,13 @@ services:
     min_instances: 1
     max_instances: 2
     env:
-      WHOAMI_NAME: v1
+      WHOAMI_NAME: $NAME
+    # domains:
+    #   - name: who.envirobly.com
+    #     proxied: true
+
+  # who2:
+  #   public: true
+  #   image: traefik/whoami:v1.11
+  #   env:
+  #     WHOAMI_NAME: who2
