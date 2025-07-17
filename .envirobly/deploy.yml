@@ -12,6 +12,8 @@ services:
     # domains:
     #   - name: who.envirobly.com
     #     proxied: true
+    #   - who2.envirobly.com
+    #   - "*.who3.envirobly.com"
 
   # who2:
   #   public: true
